@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цветы</title>
+
+  <!-- Подключение GSAP -->
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollToPlugin.min.js" defer></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+<header class="main-header">
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="img/logo.png" alt="Логотип HoneyShop" class="logo">
+    </a>
+  </div>
+
+  <div class="buttons">
+    <a href="index.html" class="btn">Каталог</a>
+    <a href="about.html" class="btn">О нас</a>
+  </div>
+</header>
+
+<main>
+  <section class="gallery">
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Розы</h3>
+        <p>Их называют королевами цветов. Они воплощают в себе романтику, страсть и нежность. Существует более 150 сортов роз, а разнообразие их оттенков в продаже поражает воображение. От классических красных до нежных розовых, от солнечных желтых до роскошных бордовых — каждый найдет сорт роз, который будет отражать его чувства и настроение. Букет из белых и красных роз — ходовой вариант для подарка.</p>
+      </div>
+      <a href="acacia.html">
+        <img src="img/розы.jpg" alt="Розы">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Тюльпаны</h3>
+        <p>Символ весны и обновления. Эти изящные цветы считаются одними из самых красивых и изысканных. Их продают в широком спектре оттенков, начиная от нежных пастельных до ярких и насыщенных. Существует более 3000 сортов тюльпанов.</p>
+      </div>
+      <a href="buckwheat.html">
+        <img src="img/тюльпаны.jpg" alt="Тюльпаны">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Хризантемы</h3>
+        <p>Символ долголетия и процветания. Эти прочные и устойчивые цветы продаются во множестве форм и оттенков. Представлены как в классических белых и желтых оттенках, так и в красных, розовых и фиолетовых цветах. Хризантемы могут быть маленькими и компактными или крупными и пышными, что делает их популярными для любого события.</p>
+      </div>
+      <a href="flower.html">
+        <img src="img/хризантемы.jpg" alt="Хризантемы">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Лилии</h3>
+        <p>Их называют символом чистоты и красоты. Эти изящные цветы великолепны и в своей естественной форме, и в композициях. Лилии продают во множестве оттенков, начиная от белых и кремовых до оранжевых и розовых. Грациозные лепестки и изысканный аромат делают их одним из самых узнаваемых растений в мире.</p>
+      </div>
+      <a href="linden.html">
+        <img src="img/лилии.jpg" alt="Лилии">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Орхидеи</h3>
+        <p>Одни из самых изысканных и элегантных цветов. Их продают во множестве видов и сортов, от маленьких миниатюрных орхидей до крупных и роскошных. Оттенки орхидей бывают разнообразными и зачастую необычными, что делает их одними из самых популярных экзотических растений.</p>
+      </div>
+      <a href="chestnut.html">
+        <img src="img/орхидеи.jpg" alt="Орхидеи">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Стрелиции</h3>
+        <p>Удивительное и неповторимое растение. Его яркие цветы напоминают фантастических птиц с пышными хвостами. Они привлекают своей формой и яркостью.</p>
+      </div>
+      <a href="hawthorn.html">
+        <img src="img/стрелиции.jpg" alt="Стрелиции">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Каллы</h3>
+        <p>Известны также как каллы-лилии, имеют удивительные восковые цветки различных оттенков, от белого до черного. Цветы с изящной формой, излучают элегантность и утонченность.</p>
+      </div>
+      <a href="mountain.html">
+        <img src="img/каллы.jpg" alt="Каллы">
+      </a>
+    </div>
+    <div class="gallery__item right">
+      <div class="gallery__description">
+        <h3>Фрезии</h3>
+        <p>Это нежные цветы с тонкими длинными стеблями и группой мелких цветков, собранных в кистевидные соцветия. Фрезии популярны в различных оттенках, включая белый, желтый, розовый, оранжевый, красный, пурпурный и даже фиолетовый. Это делает их подходящими для создания красочных букетов.</p>
+      </div>
+      <a href="forest.html">
+        <img src="img/фрезии.jpg" alt="Фрезии">
+      </a>
+    </div>
+    <div class="gallery__item left">
+      <div class="gallery__description">
+        <h3>Протеи</h3>
+        <p>Отличаются формами и яркими окрасками, такими как красный, розовый, оранжевый и желтый. У цветков характерное строение — они создают впечатление множества маленьких цветков внутри одного крупного. Эти растения часто используются в декоративных композициях благодаря своей красоте и оригинальности.</p>
+      </div>
+      <a href="clover.html">
+        <img src="img/протеи.jpg" alt="Протеи">
+      </a>
+    </div>
+    <!-- Новые сорта мёда добавляйте аналогично -->
+    <div class="contacts-container">
+      <div class="contact-text">
+        <h2>Свяжитесь с нами</h2>
+        <p>Хотите заказать букет или задать вопрос? Мы всегда рады помочь вам подобрать идеальные цветы!</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item">
+          <img src="img/телефон.png" alt="Phone Icon">
+          <p><strong>Телефон:</strong> <a href="tel:+1234567890">+123 456 7890</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="img/почта.png" alt="Email Icon">
+          <p><strong>Email:</strong> <a href="mailto:info@flowershop.com">info@flowershop.com</a></p>
+        </div>
+        <div class="contact-item">
+          <img src="img/локация.png" alt="Address Icon">
+          <p><strong>Адрес:</strong> ул. Цветочная, 15, г. Букетный</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
